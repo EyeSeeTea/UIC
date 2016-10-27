@@ -1,1 +1,2 @@
-Blessed repository for UIC App
+# UIC App
+Unique Identifier Generation Application for PSI Zimbabwe (Blessed repository)
