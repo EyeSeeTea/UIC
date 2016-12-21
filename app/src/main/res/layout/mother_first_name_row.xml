@@ -10,6 +10,13 @@
     android:paddingTop="@dimen/row_padding_top"
     android:paddingBottom="@dimen/row_padding_bottom">
 
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mother_background" >
+
     <org.eyeseetea.uicapp.views.TextCard
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,11 +26,23 @@
         app:tFontName="@string/condensed_font_name"
         android:text="@string/mother_title" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/input_margin"
+        android:layout_marginBottom="@dimen/info_margin_bottom"
+        android:layout_marginTop="@dimen/info_margin"
+        android:layout_gravity="center"
+        android:onClick="showMotherInfo"
+        android:src="@drawable/info_button"
+        />
+        </LinearLayout>
+
     <org.eyeseetea.uicapp.views.EditCard
         android:id="@+id/mother_edit_text"
         android:layout_width="match_parent"
         android:layout_height="@dimen/edit_text_height"
-        android:inputType="text"
+        android:inputType="textNoSuggestions"
         android:textColor="@color/mother_text"
         android:textSize="@dimen/title_text_size"
         android:hint="@string/mother_hint"
@@ -35,4 +54,5 @@
         android:drawableRight="@drawable/pen_yellow"
         app:tFontName="@string/condensed_font_name"
         android:background="@color/white"/>
+
 </LinearLayout>
