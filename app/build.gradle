@@ -42,7 +42,7 @@ android {
             versionName "1.0.0"
         }
         zimbabwe {
-            applicationId "org.eyeseetea.uicapp.zimbabwe_dev"
+            applicationId "org.eyeseetea.uicapp.zimbabwe"
             versionCode 7
             versionName "1.1.0"
         }
