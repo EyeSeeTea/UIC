@@ -47,7 +47,7 @@ android {
             versionName "1.2.2"
         }
         malawi {
-            applicationId "org.eyeseetea.uicapp.malawi_dev"
+            applicationId "org.eyeseetea.uicapp.malawi"
             versionCode 5
             versionName "1.0.4"
         }
